@@ -13,7 +13,6 @@ app.use(express.json());
 app.use(cors());
 
 // Routes
-app.use("/", (req, res) => res.send("Welcome to Authg"));
 app.use("/user", userRoutes);
 
 // Mongose
